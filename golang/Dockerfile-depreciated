@@ -1,0 +1,7 @@
+FROM golang
+
+COPY . /usr/src/
+
+WORKDIR /usr/src/
+
+CMD [ "go", "run", "main.go" ]
